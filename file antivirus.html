@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virüs Tarayıcı - Lenon Studio Inc.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-shield-alt"></i> Virüs Tarayıcı</h1>
+        <form id="upload-form">
+            <input type="file" id="file-input" name="file" required>
+            <button type="submit">Dosyayı Tara</button>
+        </form>
+        <div id="result"></div>
+    </div>
+
+    <!-- Üç Nokta Menüsü -->
+    <div class="menu">
+        <button id="toggle-menu">•••</button>
+        <div class="dropdown-content">
+            <button id="about-button">Hakkında</button>
+            <button id="settings-button">Ayarlar</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
